@@ -88,7 +88,7 @@ The Betsy class tiles include a DPC (_Display PCB Component_) consisting of
 Each colour channel is driven by a 12-bit constant current PWM driver IC. Each
 tile controller maintains several frame buffers (currently 8, numbered from 0),
 each consisting of little endian 16-bit per pixel-channel values (48-bit per
-pixel) arranged top to bottom, left to right. Each buffer is thus `18*18*3*2`
+pixel) arranged left to right, top to bottom. Each buffer is thus `18*18*3*2`
 or `1944` bytes in size. The high order 4 bits of each 16-bit channel value are
 ignored.
 
