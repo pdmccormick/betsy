@@ -29,3 +29,4 @@ with the packages written in
 
  * [python-betsy](https://github.com/pdmccormick/python-betsy): Python package for interacting with and controlling Betsy
  * [go-betsy](https://github.com/pdmccormick/go-betsy): Golang package for interacting with and controlling Betsy
+ * [c#-betsy](https://github.com/avwuff/Hacklab-Betsy-LED-Sign/): C# application to control the sign
